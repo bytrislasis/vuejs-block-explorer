@@ -1,8 +1,9 @@
 # Vue JS ile mini Etherscan.io Block Explorer Ethereum EVm Makinesi Anlık Blok Detayları
 
 #Demo
+![SatoshiTURK](https://satoshiturk.com/etherscan.gif)
 ![SatoshiTURK](https://satoshiturk.com/etherscan1.gif) 
-
+ 
  
 ## Kurulum için aşağıdaki adımalrı takip edin
 ```
