@@ -36,6 +36,12 @@ Kendinize göre düzenleyin lütfen
 geth --datadir="/blockchain" --http --http.api personal,eth,net,web3 --http.port=8555 --http.addr 167.86.101.64 --miner.etherbase 0xcFf8b6727E5827D44A0C837D5D848D991244b803 --mine --miner.threads=8 --http.corsdomain "*"
 ```
 
+### Açıklama
+Tamamen basit bir örnek olması açısından her şeyi ayrı ayrı yaptım.
+Çok karmaşık yazmaya gerek yok
+Geth ister sunucunuzda ister localde çalıştırın ben komutta bir şey kısıtlamadım istediğiniz gibi düzenleyebilirsiniz.
+
+
 ### Mail
 sbryasin19@gmail.com
 
