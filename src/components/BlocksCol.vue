@@ -15,14 +15,14 @@
           <tbody>
           <tr v-for="(item,index) in blocks.slice().reverse()" :key="index">
             <th scope="row">
-              <router-link :to="'/block/'+item.number">{{ item.number }}</router-link>
+              <router-link class="link-info" :to="'/block/'+item.number">{{ item.number }}</router-link>
             </th>
             <td>
-              <router-link :to="'/block/'+item.hash">{{ item.hash.toString().substring(0,7) }}</router-link>
+              <router-link class="link-info" :to="'/block/'+item.hash">{{ item.hash.toString().substring(0,7) }}</router-link>
             </td>
 
             <td>
-              <router-link :to="'/block/'+item.parentHash">{{ item.parentHash.toString().substring(0,7) }}</router-link>
+              <router-link class="link-info" :to="'/block/'+item.parentHash">{{ item.parentHash.toString().substring(0,7) }}</router-link>
             </td>
             <td>
               {{  item.difficulty }}

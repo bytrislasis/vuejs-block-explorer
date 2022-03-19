@@ -16,7 +16,7 @@
           <tr v-for="(item,index) in transaction" :key="index">
 
             <td>
-              <router-link :to="'/transfer/'+item.blockNumber">{{ item.blockNumber }}</router-link>
+              <router-link class="link-info" :to="'/transfer/'+item.blockNumber">{{ item.blockNumber }}</router-link>
             </td>
 
             <td>{{ item.from.toString().substring(0, 10) }}</td>
