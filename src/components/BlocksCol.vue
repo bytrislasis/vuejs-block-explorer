@@ -51,6 +51,7 @@ export default {
         this.blocks.shift();
       }
       this.blocks.push(call);
+
     })
   },
 
