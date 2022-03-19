@@ -1,6 +1,10 @@
-# blockexplorer
+# Vue JS ile mini Etherscan.io Block Explorer
 
-## Project setup
+##Demo
+![SatoshiTURK](https://satoshiturk.com/etherscan.gif)
+
+
+## Kurulum için aşağıdaki adımalrı takip edin
 ```
 npm install
 ```
@@ -20,5 +24,20 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+##ENV dosyası
+Websocket linki .env dosyasındadır
+```
+VUE_APP_WSSServer="ws://127.0.0.1:8556"
+```
+
+### GETH Komutu
+Kendinize göre düzenleyin lütfen
+```
+geth --datadir="/blockchain" --http --http.api personal,eth,net,web3 --http.port=8555 --http.addr 167.86.101.64 --miner.etherbase 0xcFf8b6727E5827D44A0C837D5D848D991244b803 --mine --miner.threads=8 --http.corsdomain "*"
+```
+
+### Mail
+sbryasin19@gmail.com
+
+### Web Site
+http://satoshiturk.com
