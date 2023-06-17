@@ -1,3 +1,5 @@
+# Hazırlamış olduğum Blockchain Eğitim Seti videolarından örnek bir projedir.
+
 # Vue JS ile mini Etherscan.io Block Explorer Ethereum EVm Makinesi Anlık Blok Detayları
 
 #Demo
